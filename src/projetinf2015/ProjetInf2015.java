@@ -20,6 +20,7 @@ public class ProjetInf2015 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("oui");
     }
     
 }
