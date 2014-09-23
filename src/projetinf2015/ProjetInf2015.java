@@ -10,7 +10,6 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
-import json.FileReader;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 import net.sf.json.JSONSerializer;
@@ -19,6 +18,12 @@ import net.sf.json.JSONSerializer;
  * 
  * @author achille
  */
+
+/**
+ *
+ * @author Palassonde
+ */
+
 public class ProjetInf2015 {
 
     /**
@@ -60,9 +65,7 @@ public class ProjetInf2015 {
         
         int nbrheuresTotal = 0;
         nbrheuresTotal += heures_cumulees;
-        
-        
-        
+
         // Traitement des activités
         int nbActivites = activites.size();
         
